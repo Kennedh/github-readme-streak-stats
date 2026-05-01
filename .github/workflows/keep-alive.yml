@@ -16,5 +16,5 @@ jobs:
           if [ $STATUS_CODE -eq 200 ]; then
             echo "✅ App está respondendo (Status: $STATUS_CODE)"
           else
-            echo "⚠️ App retornou status: $STATUS_CODE"
+            echo "⚠️ App retornou status: $STATUS_CODE (ainda acordando...)"
           fi
